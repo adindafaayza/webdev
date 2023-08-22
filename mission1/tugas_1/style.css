@@ -1,0 +1,78 @@
+.grid{
+    display: grid;
+    grid-template-columns: 37.5% 37.5% auto auto;
+    grid-auto-rows: minmax(105px,auto);
+}
+
+.cells{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.biru-tua{
+    grid-area: 1 / 1 / span 3;
+    background-color: #0071C0;
+}
+
+.hitam{
+    grid-area: 1 / 2 / 1 / span 3;
+    background-color: black;
+    color: white;
+}
+
+.coklat{
+    grid-area: 2 / 2 / span 2;
+    background-color: #806100;
+    color: white;
+}
+
+.putih{
+    grid-area: 2 / 3 / span 3;
+    background-color: white;
+}
+
+.pink{
+    grid-area: 2 / 4;
+    background-color: #FB99FE;
+}
+
+.biru{
+    grid-area: 3 / 4 / span 2;
+    background-color: #00B0F1;
+}
+
+.kuning{
+    grid-area: 4 / 1;
+    background-color: #FFFF00;
+}
+
+.merah{
+    grid-area: 5 / 1;
+    background-color: #FE0000;
+    color: white;
+}
+
+.hijau{
+    grid-area: 6 / 1;
+    background-color: #00AF50;
+}
+
+.ungu{
+    grid-area: 4 / 2 / span 2;
+    background-color: #70309F;
+    color: white;
+}
+
+.orange{
+    grid-area: 6 / 2;
+    background-color: #FFBE02;
+}
+
+.abu{
+    grid-area: 5 / 3 / span 2 / span 2;
+    background-color:#A6A6A6;
+}
