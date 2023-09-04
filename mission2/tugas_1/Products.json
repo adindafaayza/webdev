@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Cream Bagel",
+        "price": 23000,
+        "imageUrl": "Assets/bagel.jpg"
+    },
+    {
+        "name": "Heart Churro",
+        "price": 20000,
+        "imageUrl": "Assets/churro.jpg"
+    },
+    {
+        "name": "Cheesecake Pie",
+        "price": 28000,
+        "imageUrl": "Assets/cheesecake-pie.jpg"
+    },
+    {
+        "name": "Pink Soda",
+        "price": 15000,
+        "imageUrl": "Assets/pink-soda.jpg"
+    },
+    {
+        "name": "Blue Soda",
+        "price": 15000,
+        "imageUrl": "Assets/blue-soda.jpg"
+    },
+    {
+        "name": "Green Soda",
+        "price": 15000,
+        "imageUrl": "Assets/green-soda.jpg"
+    }
+]
